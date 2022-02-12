@@ -11,6 +11,17 @@
 		3E16FC0527B81E9E0069137F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FC0427B81E9E0069137F /* ContentView.swift */; };
 		3E16FC0727B81EA10069137F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FC0627B81EA10069137F /* Assets.xcassets */; };
 		3E16FC0A27B81EA10069137F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FC0927B81EA10069137F /* Preview Assets.xcassets */; };
+		3E16FC1227B81F7E0069137F /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3E16FC1127B81F7E0069137F /* SDWebImageSwiftUI */; };
+		3E16FC1727B820CD0069137F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FC1627B820CD0069137F /* Home.swift */; };
+		3E16FC1A27B8214E0069137F /* SPSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 3E16FC1927B8214E0069137F /* SPSafeSymbols */; };
+		3E16FC1C27B822940069137F /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FC1B27B822940069137F /* CharacterView.swift */; };
+		3E16FC1E27B822BC0069137F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FC1D27B822BC0069137F /* HomeViewModel.swift */; };
+		3E16FC2127B8297B0069137F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FC2027B8297B0069137F /* Character.swift */; };
+		3E16FC2327B841780069137F /* CharacterRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FC2227B841780069137F /* CharacterRowView.swift */; };
+		3E16FC2527B8463A0069137F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FC2427B8463A0069137F /* WebView.swift */; };
+		3E16FC2727B84C590069137F /* ComicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FC2627B84C590069137F /* ComicsView.swift */; };
+		3E16FC2927B84CCF0069137F /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FC2827B84CCE0069137F /* Comic.swift */; };
+		3E16FC2C27B84FE80069137F /* ComicRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FC2B27B84FE80069137F /* ComicRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,16 @@
 		3E16FC0427B81E9E0069137F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E16FC0627B81EA10069137F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E16FC0927B81EA10069137F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E16FC1627B820CD0069137F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3E16FC1B27B822940069137F /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		3E16FC1D27B822BC0069137F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3E16FC1F27B828310069137F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3E16FC2027B8297B0069137F /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		3E16FC2227B841780069137F /* CharacterRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRowView.swift; sourceTree = "<group>"; };
+		3E16FC2427B8463A0069137F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		3E16FC2627B84C590069137F /* ComicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsView.swift; sourceTree = "<group>"; };
+		3E16FC2827B84CCE0069137F /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		3E16FC2B27B84FE80069137F /* ComicRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E16FC1A27B8214E0069137F /* SPSafeSymbols in Frameworks */,
+				3E16FC1227B81F7E0069137F /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +74,10 @@
 		3E16FC0127B81E9E0069137F /* MarvelHeroes */ = {
 			isa = PBXGroup;
 			children = (
+				3E16FC1F27B828310069137F /* Info.plist */,
+				3E16FC1327B820930069137F /* ViewModel */,
+				3E16FC1427B820A00069137F /* Model */,
+				3E16FC1527B820A70069137F /* View */,
 				3E16FC0227B81E9E0069137F /* MarvelHeroesApp.swift */,
 				3E16FC0427B81E9E0069137F /* ContentView.swift */,
 				3E16FC0627B81EA10069137F /* Assets.xcassets */,
@@ -65,6 +92,52 @@
 				3E16FC0927B81EA10069137F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E16FC1327B820930069137F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3E16FC1D27B822BC0069137F /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3E16FC1427B820A00069137F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E16FC2027B8297B0069137F /* Character.swift */,
+				3E16FC2827B84CCE0069137F /* Comic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E16FC1527B820A70069137F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E16FC2D27B84FEC0069137F /* ComicView */,
+				3E16FC2A27B84FC00069137F /* CharacterView */,
+				3E16FC1627B820CD0069137F /* Home.swift */,
+				3E16FC2427B8463A0069137F /* WebView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E16FC2A27B84FC00069137F /* CharacterView */ = {
+			isa = PBXGroup;
+			children = (
+				3E16FC1B27B822940069137F /* CharacterView.swift */,
+				3E16FC2227B841780069137F /* CharacterRowView.swift */,
+			);
+			path = CharacterView;
+			sourceTree = "<group>";
+		};
+		3E16FC2D27B84FEC0069137F /* ComicView */ = {
+			isa = PBXGroup;
+			children = (
+				3E16FC2627B84C590069137F /* ComicsView.swift */,
+				3E16FC2B27B84FE80069137F /* ComicRowView.swift */,
+			);
+			path = ComicView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +156,10 @@
 			dependencies = (
 			);
 			name = MarvelHeroes;
+			packageProductDependencies = (
+				3E16FC1127B81F7E0069137F /* SDWebImageSwiftUI */,
+				3E16FC1927B8214E0069137F /* SPSafeSymbols */,
+			);
 			productName = MarvelHeroes;
 			productReference = 3E16FBFF27B81E9E0069137F /* MarvelHeroes.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +188,10 @@
 				Base,
 			);
 			mainGroup = 3E16FBF627B81E9E0069137F;
+			packageReferences = (
+				3E16FC1027B81F7E0069137F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				3E16FC1827B8214E0069137F /* XCRemoteSwiftPackageReference "SPSafeSymbols" */,
+			);
 			productRefGroup = 3E16FC0027B81E9E0069137F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +218,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E16FC2327B841780069137F /* CharacterRowView.swift in Sources */,
+				3E16FC2C27B84FE80069137F /* ComicRowView.swift in Sources */,
+				3E16FC2527B8463A0069137F /* WebView.swift in Sources */,
 				3E16FC0527B81E9E0069137F /* ContentView.swift in Sources */,
+				3E16FC2727B84C590069137F /* ComicsView.swift in Sources */,
+				3E16FC1727B820CD0069137F /* Home.swift in Sources */,
+				3E16FC1C27B822940069137F /* CharacterView.swift in Sources */,
+				3E16FC2127B8297B0069137F /* Character.swift in Sources */,
+				3E16FC2927B84CCF0069137F /* Comic.swift in Sources */,
+				3E16FC1E27B822BC0069137F /* HomeViewModel.swift in Sources */,
 				3E16FC0327B81E9E0069137F /* MarvelHeroesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +362,7 @@
 				DEVELOPMENT_TEAM = 7MH8KA7J8V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarvelHeroes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +392,7 @@
 				DEVELOPMENT_TEAM = 7MH8KA7J8V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarvelHeroes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -341,6 +433,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E16FC1027B81F7E0069137F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		3E16FC1827B8214E0069137F /* XCRemoteSwiftPackageReference "SPSafeSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparrowcode/SPSafeSymbols.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E16FC1127B81F7E0069137F /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E16FC1027B81F7E0069137F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		3E16FC1927B8214E0069137F /* SPSafeSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E16FC1827B8214E0069137F /* XCRemoteSwiftPackageReference "SPSafeSymbols" */;
+			productName = SPSafeSymbols;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3E16FBF727B81E9E0069137F /* Project object */;
 }
